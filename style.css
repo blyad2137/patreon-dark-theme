@@ -158,6 +158,22 @@ body {
 }
 }
 
+@-moz-document domain("privacy.patreon.com") {
+html > body {
+	background: #1a1b1c;
+	color: #fffbf4;
+}
+div[id="app"] > div, header > div {
+	background: #111 !important;
+}
+[style="background-color: rgb(250, 251, 252);"] {
+	background: #1a1b1c !important;
+}
+footer {
+	background: #111 !important;
+}
+}
+
 @-moz-document domain("patreon.com"), domain("htp.tokenex.com") {
 header, [data-tag="navbar"][class="GlobalHeader_full__in_Up"] > header {
 	background: #111 !important;
@@ -220,6 +236,7 @@ body, #component-playground, .reactWrapper {
 [id="renderPageContentWrapper"] > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button, div > [offset="[object Object]"] > div > div > div > div > button, div > [offset="[object Object]"] > div > div > div:nth-of-type(2) > button {
 	background: #212324;
 	border-color: #212324;
+	color: #fffbf4 !important;
 }
 [id="renderPageContentWrapper"] > div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > button:hover, div > [offset="[object Object]"] > div > div > div > div > button:hover, div > [offset="[object Object]"] > div > div > div:nth-of-type(2) > button:hover {
 	background: #383d42;
@@ -1203,20 +1220,115 @@ body {
 button[data-tag="apple-sign-in-button"] div:nth-of-type(2) div span svg [d="M12.2337427,16.9879688 C12.8896607,16.9879688 13.7118677,16.5445313 14.2014966,15.9532812 C14.6449341,15.4174609 14.968274,14.6691602 14.968274,13.9208594 C14.968274,13.8192383 14.9590357,13.7176172 14.9405591,13.6344727 C14.2107349,13.6621875 13.3330982,14.1241016 12.8065162,14.7430664 C12.3907935,15.2142188 12.012024,15.9532812 12.012024,16.7108203 C12.012024,16.8216797 12.0305005,16.9325391 12.0397388,16.9694922 C12.0859302,16.9787305 12.1598365,16.9879688 12.2337427,16.9879688 Z M9.92417241,28.1662891 C10.8202857,28.1662891 11.2175318,27.5658008 12.3353638,27.5658008 C13.4716724,27.5658008 13.721106,28.1478125 14.7188404,28.1478125 C15.6980982,28.1478125 16.3540162,27.2424609 16.972981,26.3555859 C17.6658521,25.339375 17.9522388,24.3416406 17.9707154,24.2954492 C17.9060474,24.2769727 16.0306763,23.5101953 16.0306763,21.3576758 C16.0306763,19.491543 17.5088013,18.6508594 17.5919459,18.5861914 C16.612688,17.1819727 15.1253248,17.1450195 14.7188404,17.1450195 C13.6194849,17.1450195 12.7233716,17.8101758 12.1598365,17.8101758 C11.5501099,17.8101758 10.7463794,17.1819727 9.79483648,17.1819727 C7.98413335,17.1819727 6.14571538,18.6785742 6.14571538,21.5054883 C6.14571538,23.2607617 6.8293482,25.1176563 7.67003179,26.3186328 C8.39061773,27.3348438 9.01882085,28.1662891 9.92417241,28.1662891 Z"] {
 	fill: #fff;
 }
+[data-tag="components-alert-contentsDiv"] {
+	background-color: #111;
+	border-color: #262623;
 }
-
-@-moz-document domain("privacy.patreon.com") {
-html > body {
-	background: #1a1b1c;
+[aria-labelledby="modalTitle-localeSelectorModal"] {
+	background: #111;
+}
+[aria-labelledby="modalTitle-localeSelectorModal"] div div div div div button {
+	border-color: #262623;
+}
+[aria-labelledby="modalTitle-localeSelectorModal"] div div div div div button[disabled] {
+	background: #151412;
+}
+[aria-labelledby="modalTitle-localeSelectorModal"] div div div div div button[disabled] div div:nth-of-type(2) span svg g path {
+	fill: #fffbf4;
+}
+[data-tag="cancel-language-preference-button"] {
+	background: #1e1313;
+	color: rgb(255, 66, 77);
+	border-color: #1e1313;
+}
+[data-tag="cancel-language-preference-button"]:active {
+	background: #281a1a;
+}
+[data-tag="cancel-language-preference-button"]:hover {
+	background: #241717;
+}
+.phT-pages-make_a_post-components-DraftCard--postContent {
+	color: #abc1cc;
+}
+[data-tag="post-card"] div div div div:nth-of-type(2) div:nth-of-type(3) > div div[class] {
+	    background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, #111 100%);
+}
+a[type="button"][href] div {
+	background-image: none !important;
+}
+[data-tag="monthly-chiclet"], [data-tag="monthly-chiclet"] div, [data-tag="annual-chiclet"] div:nth-of-type(2), .GlobalHeader_cta__2OpnV:hover {
+	background-color: #111;
+}
+[data-tag="annual-chiclet"] {
+	background: #111;
+	border-color: #262623;
+}
+[data-tag="cadence-button-badge"] div {
+	background-image: none;
+}
+[class="stackable"] div div div div:nth-of-type(2) button {
 	color: #fffbf4;
 }
-div[id="app"] > div, header > div {
-	background: #111 !important;
+[class="stackable"] div div div div:nth-of-type(4) div div div div {
+	border-color: #262623;
 }
-[style="background-color: rgb(250, 251, 252);"] {
-	background: #1a1b1c !important;
+[data-tag="account-details"] button[data-tag="menuToggleDiv"], [data-tag="account-details"] button[data-tag="menuToggleDiv"] div {
+	background-color: #151412;
 }
-footer {
-	background: #111 !important;
+[data-tag="account-details"] button[data-tag="menuToggleDiv"] {
+	border-color: #262623;
+}
+[id="Popover-1"] > div[color="light"] {
+	background-image: none;
+	background-color: #111;
+}
+[id="Popover-1"] > div[color="light"] button {
+	coloR: #fffbf4;
+}
+[data-tag="patron-checkout-continue-button"][disabled] {
+	background-color: #151412;
+	border-color: #151412;
+	color: #514c43 !important;
+}
+[data-tag="reward-tier-card"] div div div button, [data-tag="goal-display"] [color="primary"], [id="renderPageContentWrapper"] > div > div:nth-of-type(3) > div > div:nth-of-type(5) > [offset="[object Object]"] > div > div > div:nth-of-type(2) div div div div button {
+	color: #fffbf4;
+}
+[aria-label="Next"][disabled] svg path, [aria-label="Previous"][disabled] svg path {
+	stroke: #262623 !important;
+}
+[aria-label="Previous"] svg path, [aria-label="Next"] svg path {
+	stroke: #fffbf4 !important;
+}
+:root {
+    --color-primary-light: #1a0b0c;
+    --color-brand-light: #1a0c0d;
+    --color-system: #007ed7;
+    --color-system-light: #21282d;
+    --color-dark: #fffbf4;
+    --color-gray1: #fffbf4;
+    --color-gray2: #807a70;
+    --color-gray3: #514c43;
+    --color-gray4: #262623;
+    --color-gray5: #151412;
+    --color-light: #111;
+    --color-successLight: #3e574c;
+    --color-errorLight: #1a0c0d;
+    --color-pageBackground: #111;
+    --color-highlight: #f7ff00;
+    --color-highlight-dark: #17150b;
+}
+[aria-label="patreon blog home page"] svg path, [aria-label="patreon home page"] svg path {
+	fill: #fff;
+}
+[id="quick-search-desktop"] {
+	background-color: #111;
+	color: #fff;
+}
+[for="quick-search-desktop"] svg path {
+	stroke: #fff !important;
+}
+[allsearchresults] {
+	background-color: #111;
+	border-color: #444;
 }
 }

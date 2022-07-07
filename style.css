@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name           Patreon Dark Theme
+@namespace      github.com/blyad2137/patreon-dark-theme
+@version        1.0.1
+@description    I want to kill myself
+@author         blyad (https://github.com/blyad2137)
+@homepageURL    https://github.com/blyad2137/patreon-dark-theme
+@supportURL     https://github.com/blyad2137/patreon-dark-theme/issues
+@updateURL      https://userstyles.world/api/style/334.user.css
+==/UserStyle== */
+
 @-moz-document url-prefix("https://www.patreon.com/policy/legal"), url-prefix("https://www.patreon.com/policy/cookies") {
 [id="renderPageContentWrapper"] > div > div {
 	background: #151412;
@@ -260,9 +271,6 @@ body, #component-playground, .reactWrapper {
 }
 [id="renderPageContentWrapper"] > div > div:nth-of-type(3) > div > div:nth-of-type(5) > [offset="[object Object]"] > div > div > div > div > div {
 	background: #111;
-}
-div[color="light"] {
-	background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, #111 100%);
 }
 [id="renderPageContentWrapper"] > div > div:nth-of-type(3) > div > div:nth-of-type(5) > [offset="[object Object]"] > div > div > div > div {
 	background: #111;
@@ -989,7 +997,7 @@ span[aria-hidden="true"] > div[color="light"] {
 	border-color: #262623;
 }
 [id="renderPageContentWrapper"] > div > div > div > div > div:nth-of-type(4) > div > div > div, [id="renderPageContentWrapper"] > div > div > div > div > div:nth-of-type(4) > div > div > a[href] > div {
-	background: #111;
+	/* background: #111; */
 	border-color: #262623;
 }
 [aria-labelledby="modalTitle-undefined"] {
@@ -1316,6 +1324,7 @@ a[type="button"][href] div {
     --color-pageBackground: #111;
     --color-highlight: #f7ff00;
     --color-highlight-dark: #17150b;
+    --global-content-regular-default: #fffbf4;
 }
 [aria-label="patreon blog home page"] svg path, [aria-label="patreon home page"] svg path {
 	fill: #fff;
@@ -1331,4 +1340,48 @@ a[type="button"][href] div {
 	background-color: #111;
 	border-color: #444;
 }
+}
+
+.sc-dkPtRN .kpQnHy .kgyRrV > svg{
+    fill: pink;
+}
+
+.sc-dkPtRN .eHOcqQ .kgyRrV > svg{
+    fill: grey;
+}
+
+.clSXsB svg{
+    fill: #fffbf4 !important;
+}
+
+.ciWYDW{
+    background-color: #111111;
+}
+
+.SHGEY svg{
+    fill: grey;
+}
+
+.hFCOiB svg{
+    fill: #000;
+}
+
+.ktQQyp{
+    background-color: grey;
+}
+
+.cbIwyh svg{
+    fill: #4D5BF0;
+}
+
+.bkrxUF svg{
+    fill: white;
+}
+
+.fyqeEB svg{
+    fill: grey;
+}
+
+.iXquvg svg{
+    fill: tan;
 }
